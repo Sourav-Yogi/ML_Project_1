@@ -1,0 +1,6 @@
+## List of dependencies to be installed using pip
+pandas
+numpy
+seaborn
+matplotlib
+# -e . ## Editable install for local package development (invokes setup.py)
