@@ -3,4 +3,6 @@ pandas
 numpy
 seaborn
 matplotlib
+catboost
+xgboost
 # -e . ## Editable install for local package development (invokes setup.py)

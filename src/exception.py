@@ -1,6 +1,6 @@
 import sys
 import logging
-
+from src.logger import logging
 
 def error_message_details(error, error_detail: sys):
     # Extract exception details (type, value, traceback)
@@ -32,7 +32,7 @@ class CustomException(Exception):
         # When the exception object is printed, return the detailed error message
         return self.error_message
     
-# To check weather the code is properly working or not
+# # To check weather the code is properly working or not
 # if __name__ == "__main__":
 #     try:
 #         # Example code that will intentionally cause a ZeroDivisionError
